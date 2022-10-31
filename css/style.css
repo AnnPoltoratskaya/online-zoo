@@ -90,6 +90,15 @@ body {
   margin: 0 58px 0 0;
 }
 
+.menu__link:hover,
+.header__figma-link:hover {
+  color: #F9804B;
+}
+
+.link-active {
+  color: #F9804B;
+}
+
 .header__figma-link {
   margin-left: auto;
 }
@@ -140,9 +149,6 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 54px;
-  min-width: 298px;
-  border-radius: 25px;
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
@@ -154,6 +160,131 @@ body {
 
 .button:hover {
   background: #E47209;
+}
+
+.button-type1 {
+  min-height: 54px;
+  min-width: 298px;
+  border-radius: 25px;
+}
+
+.button-type3 {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
+
+.section2 {
+  position: relative;
+}
+
+.section2__content {
+  margin-top: 140px;
+  margin-bottom: 180px;
+  display: flex;
+}
+
+.section2__text-content {
+  margin-left: 87px;
+}
+
+.section2__title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+.section2__title-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 54px;
+}
+
+.section2__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 34px;
+}
+
+.section2__subtitle-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.section2__flower {
+  display: inline-block;
+  position: absolute;
+  top: -128px;
+  right: 0;
+}
+
+.section3 {
+  color: #000000;
+}
+
+.section3__part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section3__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.foto-card {
+  width: 367px;
+  height: 426px;
+  margin-bottom: 20px;
+  border: 1px solid #F9804B;
+  border-radius: 5px;
+}
+
+.foto-card__img {
+  width: 365px;
+  height: 365px;
+  border-radius: 5px 5px 0 0;
+}
+
+.foto-card__bottom-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0 0 17px;
+}
+
+.foto-card__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.foto-card__icon {
+  margin: 10px 13px 0 0;
+}
+
+.section3__button {
+  margin: 60px auto 100px auto;
+}
+
+.arrow-right {
+  transform: rotate(-180deg);
+}
+
+.section3__container {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.section3-1__container {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
