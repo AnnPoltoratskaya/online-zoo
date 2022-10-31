@@ -224,6 +224,7 @@ body {
 
 .section3 {
   color: #000000;
+  position: relative;
 }
 
 .section3__part1 {
@@ -285,6 +286,18 @@ body {
 
 .section3-1__container {
   display: flex;
+}
+
+.section3__flower-palm {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.section3__flower-strelitzia {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
